@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: taskservice
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: taskservice
+  template:
+    metadata:
+      labels:
+        app: taskservice
+    spec:
+      containers:
+        - name: taskservice
+          image: task-service:latest
+          imagePullPolicy: IfNotPresent
+          ports:
+            - containerPort: 8080

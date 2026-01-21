@@ -1,0 +1,17 @@
+version: "3.9"
+
+services:
+  task-service:
+    build: ./TaskService
+    ports:
+      - "8080:8080"
+
+  user-service:
+    build: ./userservice
+    ports:
+      - "8081:8081"
+
+  api-gateway:
+    build: ./apigateway
+    ports:
+      - "8082:8082"
