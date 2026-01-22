@@ -124,7 +124,7 @@ curl -X DELETE http://localhost:8082/user-tasks/1
 
 
 
-* Kubernetes (si déployé) :
+* Kubernetes :
 
   * `kubectl get pods`
 
@@ -133,7 +133,7 @@ curl -X DELETE http://localhost:8082/user-tasks/1
 
   * `kubectl get services`
   
-  
+
   ![services](screens/services.png)
 
 
