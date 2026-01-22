@@ -14,7 +14,7 @@ public class UserTask {
 
     private Long userId;
     private Long taskId;
-    private boolean done; // <-- ajouter ce champ
+    private boolean done;
 
     public UserTask() {}
 
@@ -33,6 +33,6 @@ public class UserTask {
     public Long getTaskId() { return taskId; }
     public void setTaskId(Long taskId) { this.taskId = taskId; }
 
-    public boolean isDone() { return done; }  // getter
-    public void setDone(boolean done) { this.done = done; } // setter
+    public boolean isDone() { return done; }
+    public void setDone(boolean done) { this.done = done; }
 }

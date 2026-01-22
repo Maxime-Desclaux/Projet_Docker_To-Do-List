@@ -1,10 +1,10 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: bookservice
+  name: service
 spec:
   selector:
-    app: bookservice
+    app: service
   ports:
     - port: 8080
       targetPort: 8080

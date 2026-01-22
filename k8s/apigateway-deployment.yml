@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: apigateway
-          image: library-microservices-apigateway:latest
-          imagePullPolicy: IfNotPresent
+          image: apigateway:latest     
+          imagePullPolicy: Never       
           ports:
             - containerPort: 8082

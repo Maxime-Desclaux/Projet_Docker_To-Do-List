@@ -7,7 +7,7 @@ import jakarta.persistence.Id;
 import jakarta.persistence.Table;
 
 @Entity
-@Table(name = "app_user")  // <- ici on change le nom pour éviter le mot réservé
+@Table(name = "app_user")
 public class User {
 
     @Id

@@ -127,8 +127,14 @@ curl -X DELETE http://localhost:8082/user-tasks/1
 * Kubernetes (si déployé) :
 
   * `kubectl get pods`
+
+  ![pods](screens/pods.png)
+
+
   * `kubectl get services`
-  * Test curl via NodePort exposé
+  
+  
+  ![services](screens/services.png)
 
 
 ---

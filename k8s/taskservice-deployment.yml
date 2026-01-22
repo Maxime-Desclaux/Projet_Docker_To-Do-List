@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: taskservice
-          image: task-service:latest
-          imagePullPolicy: IfNotPresent
+          image: taskservice:latest   
+          imagePullPolicy: Never      
           ports:
             - containerPort: 8080
